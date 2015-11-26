@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\CalendarManager.cs" />
+    <Compile Include="Managers\IManagers\IManager.cs" />
+    <Compile Include="Managers\NewsManager.cs" />
+    <Compile Include="Managers\TrainerManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="Domain Model\" />
-    <Folder Include="Managers\IManagers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
