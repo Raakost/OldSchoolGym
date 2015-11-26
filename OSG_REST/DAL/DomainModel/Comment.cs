@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Domain_Model
+namespace DAL.DomainModel
 {
     class Comment
     {
