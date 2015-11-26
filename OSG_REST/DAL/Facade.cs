@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.Managers.IManagers;
 
 namespace DAL
 {
-    class Facade
+    public class Facade
     {
+       
     }
 }
